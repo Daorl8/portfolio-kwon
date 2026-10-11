@@ -1,0 +1,6 @@
+# Cloudflare Pages 응답 헤더
+# 검색엔진 노출 차단 (링크를 받은 사람만 열람). 공개 검색을 원하면 아래 X-Robots-Tag 줄을 지우세요.
+/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
